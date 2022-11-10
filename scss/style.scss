@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// .box{
+//   width: 100px;
+//   height: 100px;
+//   background-color: red;
+//   // animation-name: goToRight;
+//   // animation-duration: 10s;
+//   animation: goToRight 1s;
+// }
+
+// @keyframes goToRight{
+//   0%{
+//     transform: translateX(0);
+//   }
+//   100%{
+//     transform: translateX(calc(100vw - 100px));
+//   }
+// }
+
+
+
+// .box2{
+//   width: 100px;
+//   height: 100px;
+//   background-color: red;
+//   // animation-name: goToRight;
+//   // animation-duration: 10s;
+//   animation: infinite 1s;
+//   border-radius: 50%;
+//   margin: auto;
+
+//   .child{
+//     width: 90px;
+//     height: 99px;
+//     background-color: #fff;
+//     margin: auto;
+    
+//   }
+// }
+
+

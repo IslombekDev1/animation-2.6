@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 40px;
+  background-color: black;
+}
+
+
+/* .hr1{
+  width: 34.5%;
+  height: 0.1px;
+} */
+
+.box3{
+  width: 100px;
+  height: 100px;
+  animation-name: aylana;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  background-color: red;
+}
+
+
+/* .hr2{
+  width: 20.3%;
+  position: relative;
+  left: 6.9%;
+}
+
+.div{
+  width: 27%;
+  height: 2px;
+  rotate: 90deg;
+  background-color: black;
+  position: relative;
+  top:47px;
+  top: 201.5px;
+  left: 23.9%;
+  left: 13.4%;
+  rotate: 90deg;
+}
+
+/* .div2{
+  width: 27%;
+  height: 2px;
+  position: relative;
+  top: 90px;
+  left: 21.1%;
+  rotate: 90deg;
+  background-color: black;
+}
+
+.hr3{
+  width: 54vw;
+  position: relative;
+  top: 393px;
+  left: 26.8%;
+}
+
+.hr4{
+  width: 54vw;
+  position: relative;
+  top: 283px;
+  left: 34.5%;
+}
+
+.div3{
+  width: 21%;
+  height: 1.5px;
+  position: relative;
+  top: 57.4vh;
+  left: 76.7vw;
+  rotate: 90deg;
+  background-color: black;
+}
+
+.hr5{
+  width: 47.5vw;
+  position: relative;
+  top: 587px;
+  left: 41.4%;
+} */
+
+@keyframes aylana{
+  0%{
+    transform: translate(0);
+  }
+  20%{
+    transform: translate(400px);
+  }
+  30%{
+    transform: translate(400px, 400px);
+  }
+  40%{
+    transform: translate(80vw, 400px);
+  }
+  50%{
+    transform: translate(80vw, 600px);
+  }
+  60%{
+    transform: translate(599px, 600px);
+  }
+  70%{
+    transform: translate(599px, 500px);
+  }
+  80%{
+    transform: translate(299px, 500px);
+  }
+  85%{
+    transform: translate(185px, 300px);
+  }
+  90%{
+    transform: translate(0px, 360px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
+hr{
+  /* height: 1px; */
+  background-color: black;
+}
